@@ -14,9 +14,9 @@ Le projet "NetSecure" n'existait pas encore avant ce TP, donc j'ai du poser les 
   - `backend` (interne, marque `internal: true`) : seul moyen pour nginx de parler a l'api,
     pas joignable depuis la machine hote.
   - `frontend` : seul nginx y est expose sur l'hote (port 80).
-Je pousse ca tout de suite pour que tu voies l'avancement, meme si je n'ai pas encore fait
-la reconnaissance (Partie 1) ni le scan Trivy (Partie 2). Je mets a jour ce fichier et
-j'ajoute `SCAN_INITIAL.md` + `REPONSES_A.md` dans un commit suivant, sur la meme branche.
+- Partie 1 (reconnaissance) et Partie 2 (scan Trivy) : voir `SCAN_INITIAL.md`, resultats
+  complets avec 3 CVE detaillees.
+- Mes reponses a Q1, Q2, Q3, Q5, Q7 : voir `REPONSES_A.md`.
 
 Tout ca est sur la branche `binome-a/infra-audit`, avec une Pull Request ouverte vers
 `main` (je ne la fusionne pas moi-meme).
